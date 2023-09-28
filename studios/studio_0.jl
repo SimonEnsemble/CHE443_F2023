@@ -102,8 +102,8 @@ a batch reactor starting with pure species $A$ at concentration $c_{A0}$ is carr
 ```math
 \begin{align}
 	c_A(t) &= c_{A0} e^{-k_1t} \\
-	c_B(t) &= \frac{c_{A0}}{k_2-k_1}k_1 \left(e^{-k_1t} - e^{k_2t}\right) \\
-	c_C(t) &= \frac{c_{A0}}{k_2-k_1}\left[ k_2 (1- e^{-k_1t}) - k_1(1 - e^{k_2t})\right] \\
+	c_B(t) &= \frac{c_{A0}}{k_2-k_1}k_1 \left(e^{-k_1t} - e^{-k_2t}\right) \\
+	c_C(t) &= \frac{c_{A0}}{k_2-k_1}\left[ k_2 (1- e^{-k_1t}) - k_1(1 - e^{-k_2t})\right] \\
 \end{align}
 ```
 
