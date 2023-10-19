@@ -125,7 +125,7 @@ md"🐒 draw an appropriate scatter plot of your transformed -rₐ vs. your tran
 	see docs for `llsq` [here](https://docs.juliahub.com/MultivariateStats/l7I74/0.9.0/lreg/) or last week's studio.
 
 !!! hint
-	`llsq` cannot handle `NaN`, so feed it only rows two onwards, eg. `data[2:end, \"log(cₐ)\"]` to skip the first row with the `NaN`.
+    `llsq` cannot handle `NaN`. your `filter!` should have removed the `NaN`. but, if you filtered a different way, only feed `llsq` rows two onwards, eg. `data[2:end, \"log(cₐ)\"]`, to skip the first row, if it has an `NaN`.
 "
 
 # ╔═╡ aab83890-7b8c-4da7-906e-37a48110a49b
