@@ -28,6 +28,11 @@ MFR = mixed flow reactor
 !!! warning \"problem statement\"
 	pure gaseous A at 3 atm and 30°C is fed into a MFR at various flow rates over multiple runs. the volume of the MFR is 3 L. inside the MFR, A decomposes according to the rxn A → 3R. for each run of the MFR with a different flow rate, we wait for it to reach steady state, then measure the concentration of A in the outlet stream. from the kinetic data we collected (below), find a rate equation that governs the kinetics of the decomposition of A. assume that A alone affects the rxn rate. the MFR is run isothermally and isobarically (30°C, 3 atm). treat the gas as ideal.
 
+the score for this computational portion constitutes:
+* the correct order of the rxn, $\alpha$, calculated by a linear fitting routine
+* the correct value of $k$ [with units], calculated by a linear fitting routine
+* a plot of the rxn rate $-r_A$ [mol/(min⋅L)] vs. concentration of A $c_A$ [mol/L] including (i) the data as points, (ii) the rate law you obtained as a line, and (iii) proper x- and y-axis labels with units.
+
 !!! hint
 	you will need a line-fitting routine. see `llsq` as part of the `MultivariateStats` package. 
 "
