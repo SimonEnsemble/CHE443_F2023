@@ -24,7 +24,7 @@ A → P
 ```math
 -r_A=c_Ac_P \text{ mol/(L⋅min)}.
 ```
-we wich to achieve 96% overall conversion. should we use a recycle stream? if so, at what value should we set the recycle ratio to obtain the highest production rate of the product P, and what volumetric feed rate can we process to this conversion in the reactor?
+we wish to achieve 96% overall conversion. should we use a recycle stream? if so, at what value should we set the recycle ratio to obtain the highest production rate of the product P, and what volumetric feed rate can we process to this conversion in the reactor?
 
 "
 
